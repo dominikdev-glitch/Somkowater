@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#06131c">
+  <meta name="description" content="Somko Water — naturally filtered spring water crafted for daily vitality.">
+  <title>Somko Water — Pure Hydration, Perfected</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="loader" id="loader" aria-live="polite">
+    <div class="loader-mark">S<span>.</span></div>
+    <div class="loader-track"><span></span></div>
+    <p>Preparing pure hydration</p>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Somko Water home">
+      <span class="brand-symbol" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span>SOMKO<span class="brand-light"> WATER</span></span>
+    </a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#purity">Purity</a>
+      <a href="#minerals">Minerals</a>
+      <a href="#sustainability">Sustainability</a>
+    </nav>
+    <a class="header-cta" href="mailto:hello@somkowater.com?subject=Somko%20Water%20Order">Order Now <span>↗</span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+  </header>
+
+  <main id="top">
+    <section class="experience" aria-label="Somko Water product experience">
+      <div class="scroll-track" id="scrollTrack">
+        <div class="stage">
+          <div class="ambient ambient-one"></div>
+          <div class="ambient ambient-two"></div>
+          <div class="grid-glow"></div>
+          <video
+            class="product-video"
+            id="productVideo"
+            src="somko-hero.mp4"
+            preload="auto"
+            muted
+            playsinline
+            disablepictureinpicture
+            aria-label="Somko Water bottle product animation">
+          </video>
+          <div class="video-shade"></div>
+
+          <div class="copy-layer">
+            <article class="story-panel panel-hero is-active" data-start="0" data-end="0.22">
+              <p class="eyebrow"><span></span> THE ART OF PURE</p>
+              <h1>Pure Hydration,<br><em>Perfected.</em></h1>
+              <p class="story-copy">Naturally filtered spring water crafted for daily vitality.</p>
+              <a class="button button-primary" href="#purity">Explore Somko <span>↓</span></a>
+            </article>
+
+            <article class="story-panel panel-feature" id="purity" data-start="0.27" data-end="0.53">
+              <p class="eyebrow"><span></span> A HIGHER STANDARD</p>
+              <h2>7-Stage<br><em>Micro-Filtration</em></h2>
+              <p class="story-copy">Crisp, balanced taste with zero impurities.</p>
+              <div class="feature-index">01 <span>/ 03</span></div>
+            </article>
+
+            <article class="story-panel panel-feature" id="minerals" data-start="0.57" data-end="0.82">
+              <p class="eyebrow"><span></span> BALANCE IN EVERY DROP</p>
+              <h2>Essential<br><em>Electrolytes</em></h2>
+              <p class="story-copy">Infused with natural minerals for rapid refreshment.</p>
+              <div class="feature-index">02 <span>/ 03</span></div>
+            </article>
+
+            <article class="story-panel panel-final" data-start="0.84" data-end="1">
+              <p class="eyebrow"><span></span> MAKE EVERY DAY REFRESHING</p>
+              <h2>Refresh Your<br><em>Routine.</em></h2>
+              <p class="story-copy">Make room for a cleaner, clearer kind of refreshment.</p>
+              <a class="button button-primary" href="mailto:hello@somkowater.com?subject=Order%20a%20Case%20of%20Somko">Order a Case <span>↗</span></a>
+            </article>
+          </div>
+
+          <div class="scroll-hint" id="scrollHint"><span class="scroll-line"></span> SCROLL TO EXPLORE</div>
+          <div class="progress-wrap"><span class="progress-label">EXPERIENCE</span><div class="progress-track"><span id="progressBar"></span></div><span class="progress-number" id="progressNumber">00</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sustainability" id="sustainability">
+      <div class="sustainability-inner">
+        <p class="eyebrow"><span></span> CONSIDERED BY NATURE</p>
+        <h2>Good water.<br><em>Better choices.</em></h2>
+        <p>We believe everyday hydration should feel exceptional — with care for the water, the people, and the world around us.</p>
+        <a class="text-link" href="mailto:hello@somkowater.com">Discover our approach <span>↗</span></a>
+      </div>
+      <div class="water-orbit" aria-hidden="true"><span></span><span></span><span></span></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand" href="#top"><span class="brand-symbol" aria-hidden="true"><i></i><i></i><i></i></span><span>SOMKO<span class="brand-light"> WATER</span></span></a>
+    <p>Pure hydration, made for every day.</p>
+    <div class="footer-contact"><a href="mailto:hello@somkowater.com">hello@somkowater.com</a><span>© <span id="year"></span> Somko Water. All rights reserved.</span></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
