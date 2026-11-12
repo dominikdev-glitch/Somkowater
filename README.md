@@ -46,4 +46,4 @@ Return events in chronological order. The upstream service must verify that the 
 
 ## Product video
 
-The homepage references `somko-hero.mp4` in the project root. Keep the original video asset there when deploying.
+The homepage references `somko-hero.mp4` in the `site/` publish directory. Keep the original video asset there when deploying.
