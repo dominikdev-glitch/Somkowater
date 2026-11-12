@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#06131c"><meta name="description" content="Track your Somko Water delivery.">
+<title>Track Your Delivery — Somko Water</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:dark;--ink:#06131c;--ice:#c8f3ff;--blue:#74d9f4}*{box-sizing:border-box}html{min-height:100%;background:var(--ink)}body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 75% 30%,#123747 0%,#081d29 38%,#06131c 76%);color:#f5fbff;font-family:Inter,sans-serif}.header{height:76px;display:flex;align-items:center;justify-content:space-between;padding:0 max(6vw,calc((100vw - 1120px)/2));border-bottom:1px solid rgba(190,230,245,.1);background:rgba(5,19,29,.45);backdrop-filter:blur(18px)}a{color:inherit;text-decoration:none}.brand{font-size:13px;font-weight:800;letter-spacing:.14em}.brand span{color:#9cb7c4;font-weight:500}.back{color:#c8f3ff;font-size:11px}.layout{width:min(1080px,calc(100% - 40px));min-height:calc(100vh - 150px);margin:0 auto;display:grid;grid-template-columns:.9fr 1.1fr;align-items:center;gap:clamp(36px,7vw,90px);padding:70px 0}.intro{max-width:430px}.eyebrow{display:flex;align-items:center;gap:10px;color:#8eafbd;font-size:9px;font-weight:700;letter-spacing:.22em}.eyebrow:before{content:"";width:22px;height:1px;background:var(--blue)}h1{margin:20px 0;font-size:clamp(48px,6vw,76px);line-height:.98;letter-spacing:-.065em;font-weight:600}h1 em{color:var(--ice);font-style:normal}.intro>p:not(.eyebrow){color:#a9c0ca;font-size:13px;line-height:1.9}.promise{display:flex;align-items:center;gap:12px;margin-top:32px;color:#c5e5ee;font-size:10px}.promise i{width:30px;height:30px;display:grid;place-items:center;border:1px solid rgba(116,217,244,.3);border-radius:50%;font-style:normal;color:var(--ice)}.card{padding:clamp(24px,4vw,38px);border:1px solid rgba(190,230,245,.14);border-radius:22px;background:linear-gradient(145deg,rgba(15,42,55,.92),rgba(5,20,30,.96));box-shadow:0 28px 80px rgba(0,0,0,.24)}.card-head{display:flex;justify-content:space-between;align-items:flex-start}.kicker{color:#82a8b8;font-size:8px;font-weight:700;letter-spacing:.2em}.card h2{margin:9px 0 0;font-size:23px;font-weight:600;letter-spacing:-.045em}.mark{color:rgba(200,243,255,.55);font-size:27px;font-weight:800}.form{display:flex;flex-direction:column;margin-top:28px}.form label{margin:0 0 9px;color:#c3d5dc;font-size:10px;font-weight:600}.form input{height:49px;margin-bottom:19px;padding:0 15px;border:1px solid rgba(180,220,235,.15);border-radius:10px;outline:none;background:rgba(2,13,20,.42);color:#f5fbff;font:inherit;font-size:12px}.form input:focus{border-color:rgba(116,217,244,.7);box-shadow:0 0 0 3px rgba(116,217,244,.09)}.form input::placeholder{color:#66818e}.submit{height:50px;display:flex;justify-content:space-between;align-items:center;padding:0 18px;border:0;border-radius:10px;background:#d8f7ff;color:#08202b;font:inherit;font-size:11px;font-weight:700;cursor:pointer}.submit:disabled{opacity:.65;cursor:wait}.privacy{text-align:center;color:#6f8995;font-size:9px;margin:13px 0 0}.feedback{margin-top:18px;padding:13px 14px;border:1px solid rgba(255,190,130,.2);border-radius:10px;background:rgba(130,75,35,.12);color:#ffd5b0;font-size:11px;line-height:1.6}.result{margin-top:26px;padding-top:24px;border-top:1px solid rgba(180,220,235,.12)}.result-top{display:flex;justify-content:space-between;gap:16px}.result h3{margin:7px 0 0;font-size:21px}.pill{padding:7px 10px;border:1px solid rgba(116,217,244,.25);border-radius:100px;color:var(--ice);font-size:8px;font-weight:700;letter-spacing:.1em;height:max-content}.meta{display:flex;flex-wrap:wrap;gap:10px 25px;margin:18px 0 23px;color:#7795a2;font-size:9px}.meta strong{margin-left:5px;color:#d8eaf0}.timeline{list-style:none;margin:0;padding:0 0 0 4px}.timeline li{position:relative;min-height:62px;padding:0 0 18px 27px;border-left:1px solid rgba(116,217,244,.2)}.timeline li:last-child{min-height:0;padding-bottom:0;border-left-color:transparent}.timeline li:before{content:"";position:absolute;left:-5px;top:2px;width:9px;height:9px;border:1px solid #55727e;border-radius:50%;background:#102b37}.timeline li.done:before{border-color:var(--blue);background:var(--blue);box-shadow:0 0 12px rgba(116,217,244,.35)}.timeline strong{display:block;color:#d8eaf0;font-size:10px}.timeline p{margin:5px 0 0;color:#829eaa;font-size:9px;line-height:1.6}.timeline time{display:block;margin-top:5px;color:#607c89;font-size:8px}.carrier{margin:18px 0 0;color:#7f9ba7;font-size:9px}.footer{padding:24px 20px;text-align:center;border-top:1px solid rgba(180,230,245,.08);color:#6f8995;font-size:9px}
+@media(max-width:760px){.header{height:66px;padding:0 20px}.layout{grid-template-columns:1fr;gap:30px;padding:55px 0}.intro{max-width:none}h1{font-size:clamp(46px,12vw,62px)}.card{padding:24px 19px;border-radius:17px}}
+</style>
+</head>
+<body>
+<header class="header"><a class="brand" href="index.html">SOMKO <span>WATER</span></a><a class="back" href="index.html">← Back to Somko Water</a></header>
+<main class="layout">
+<section class="intro"><p class="eyebrow">FROM OUR SOURCE TO YOUR DOOR</p><h1>Your water.<br><em>On its way.</em></h1><p>Stay in the loop. Enter the details from your order confirmation to see the latest delivery update.</p><div class="promise"><i>↗</i><span>Clear updates, every step of the journey.</span></div></section>
+<section class="card" aria-labelledby="trackTitle">
+<div class="card-head"><div><span class="kicker">ORDER LOOKUP</span><h2 id="trackTitle">Track your delivery</h2></div><span class="mark">S.</span></div>
+<form class="form" id="trackingForm" novalidate>
+<label for="orderId">Order number</label><input id="orderId" name="orderId" placeholder="e.g. SMK-10482" autocomplete="off" maxlength="64" required>
+<label for="phone">Phone number used at checkout</label><input id="phone" name="phone" type="tel" placeholder="Enter your order phone number" autocomplete="tel" maxlength="32" required>
+<button class="submit" id="submit" type="submit"><span>Find my order</span><span>↗</span></button><p class="privacy">Your details are only used to locate your order.</p>
+</form>
+<div class="feedback" id="feedback" role="status" aria-live="polite" hidden></div>
+<div class="result" id="result" hidden><div class="result-top"><div><span class="kicker">DELIVERY STATUS</span><h3 id="status">In transit</h3></div><span class="pill" id="pill">IN TRANSIT</span></div><div class="meta"><span>Order <strong id="resultOrder">—</strong></span><span>ETA <strong id="eta">To be confirmed</strong></span></div><ol class="timeline" id="timeline"></ol><p class="carrier" id="carrier"></p></div>
+</section>
+</main>
+<footer class="footer">© <span id="year"></span> Somko Water. Pure hydration, made for every day.</footer>
+<script>
+const $=id=>document.getElementById(id);
+$('year').textContent=new Date().getFullYear();
+const form=$('trackingForm'),button=$('submit'),feedback=$('feedback'),result=$('result'),timeline=$('timeline');
+function error(message){result.hidden=true;feedback.textContent=message;feedback.hidden=false}
+function dateLabel(value){if(!value)return '';const date=new Date(value);return Number.isNaN(date.getTime())?'':new Intl.DateTimeFormat(undefined,{dateStyle:'medium',timeStyle:'short'}).format(date)}
+function render(data){
+ if(!data||!data.orderId||!data.status||!Array.isArray(data.events)||!data.events.length)throw new Error('No delivery updates are available for this order yet. Please check again later.');
+ $('status').textContent=data.statusLabel||data.status;$('pill').textContent=String(data.status).replace(/[-_]/g,' ').toUpperCase();$('resultOrder').textContent=data.orderId;$('eta').textContent=data.estimatedDelivery||'To be confirmed';$('carrier').textContent=data.carrier?'Delivery partner: '+data.carrier+(data.trackingNumber?' · '+data.trackingNumber:''):'';
+ timeline.replaceChildren();
+ data.events.forEach(event=>{const li=document.createElement('li');if(event.completed)li.classList.add('done');const title=document.createElement('strong');title.textContent=event.label||event.status||'Order update';li.appendChild(title);if(event.description||event.location){const p=document.createElement('p');p.textContent=[event.description,event.location].filter(Boolean).join(' · ');li.appendChild(p)}const formatted=dateLabel(event.timestamp);if(formatted){const time=document.createElement('time');time.dateTime=event.timestamp;time.textContent=formatted;li.appendChild(time)}timeline.appendChild(li)});
+ feedback.hidden=true;result.hidden=false
+}
+form.addEventListener('submit',async event=>{
+ event.preventDefault();const orderId=$('orderId').value.trim(),phone=$('phone').value.trim();feedback.hidden=true;result.hidden=true;
+ if(!orderId||!phone){error('Enter both your order number and checkout phone number to continue.');return}
+ button.disabled=true;button.firstElementChild.textContent='Looking up order…';
+ try{const response=await fetch('/.netlify/functions/track-delivery',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({orderId,phone})});const data=await response.json().catch(()=>({}));if(!response.ok)throw new Error(data.error||'We could not find that order. Check your details and try again.');render(data)}
+ catch(e){error(e.message||'Tracking is temporarily unavailable. Please try again shortly.')}
+ finally{button.disabled=false;button.firstElementChild.textContent='Find my order'}
+});
+</script>
+</body></html>
